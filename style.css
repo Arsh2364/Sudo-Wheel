@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+   --primary-text-color: #00BFFF;
+   --secondary-text-color: #FF6347;
+   --accent-color: #FFF5EE;
+   --padding:20px;
+
+}
+h1 {
+    font-size:5rem ;
+    font-family: 'Bebas Neue', cursive;
+   color: var(--secondary-text-color);
+   text-align: center;
+   text-shadow: 2px 1px 3px black;
+
+}
+h2 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    /* margin: 10px; */
+    text-shadow: 1px 1px 1px var(--primary-text-color);
+   /* color: var(--secondary-text-color); */
+
+}
+h3 {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+   color: var(--secondary-text-color);
+
+}
+
+p {
+    font-size: 1rem;
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    width: 100%;
+    height: 58px;
+    background-color:#FF1493;
+    opacity: 0.9;
+    margin: 0px;
+   text-align: center;
+}
+.logo {
+    margin-top: 10px;
+    width: 60px;
+    border-radius: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.nav-bar {
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 1480px;
+   
+}
+ul {
+    list-style: none;
+    display: inline;
+}
+
+.top-nav {
+    display: inline-flex;
+    gap: 20px;
+    font-size: x-large;
+    align-items: flex-end;
+    padding: var(--padding);
+}
+li a:hover {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+} 
+ a {
+    text-decoration: none;
+ }
+ .aside {
+        margin-top: 0;
+        width: 40%;
+        height: 460px;
+        overflow: auto;
+       border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        color: #29627e;
+        
+ }
+ .bike1 {
+    width: 50%;
+    border-radius: 20px;
+ }
+ .bike2 {
+    width: 50%;
+    border-radius: 20px;
+ }
+ .servi {
+    width: 40%;
+    border-radius: 20px;
+    padding: 5px;
+ }
+.Ser {
+  display: inline-flex;
+}
+
+ .wor {
+    width: 33%;
+    overflow: auto;
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: #FFFAFA;
+    margin: 5px;
+    padding: var(--padding);
+  
+ }
+
+ .bmw {
+    width: 35%;
+    border-radius: 20px;
+    margin: 10px;
+ }
+ .yamaha {
+    
+        width: 35%;
+        border-radius: 20px;
+        margin: 10px;
+     
+ }
+ .royal  {
+    width: 35%;
+    border-radius: 20px;
+    margin: 10px;
+ }
+
+ .cl1 {
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 5px;
+    padding: var(--padding);
+ }
+
+ .cl2 {
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 5px;
+    padding: var(--padding);
+ }
+
+ .cl3 {
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 5px;
+    padding: var(--padding);
+ }
+
+ .clients {
+    display: inline-flex;
+    margin: 10px;
+ }
+
+ .contact {
+    text-decoration: none;
+    font-size: xx-large;
+    font-family:'Bebas Neue', cursive ;
+    display: inline-flex;
+    gap: 30px;
+ }
+
+
+ .con {
+   border: 2px solid black;
+   border-radius: 32px;
+   background-image: url('./pexels-gerd-altmann-21694.jpg');
+   opacity:0.8; 
+   margin-left: auto;
+   margin-right: auto;
+   padding: 15px;
+   font-size: x-large;
+ }
+
+#fo {
+   text-align: center;
+   padding: var(--padding);
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+
+}
+
